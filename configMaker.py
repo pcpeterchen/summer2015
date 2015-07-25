@@ -1,5 +1,6 @@
 '''
 Author: Peter Chen
+Date: 7/22/2015
 Project: configMaker.py
 
 Purpose: given a folder of swc.  make a folder of obj and a config

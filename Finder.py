@@ -1,5 +1,6 @@
 '''
 Author: Peter Chen, Maher Shamaa, Michael Morehead
+Date: 7/22/2015
 Project: Finder.py
 
 Purpose: Given a folder of Raw EM data, and masks of nuclei, TIFF files,
@@ -15,8 +16,10 @@ the original data.  We will make our testing standard by
 cropping a small section of the original data, identify all
 cells known, then debug.
 
-Usage:  python Finder.py <dir of mask as folder of TIFF files> <dir of original EM files at original resolution> <mask bin> <em bin>
-Default Example: python Finder.py ~/Documents/p3_bin10_masks/ ~/Documents/p3_bin2/ 10 2
+Usage:  python Finder.py <dir of mask as folder of TIFF files> <dir of \
+		original EM files at original resolution> <mask bin> <em bin>
+Default Example: python Finder.py ~/Documents/p3_bin10_masks/ \
+		~/Documents/p3_bin2/ 10 2
 '''
 import cv2
 import numpy as np

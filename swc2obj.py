@@ -1,5 +1,6 @@
 '''
 Author: Peter Chen
+Date: 7/22/2015
 Project: swc2obj.py
 
 Purpose: convert swc files to obj files

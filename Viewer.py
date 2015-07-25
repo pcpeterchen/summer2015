@@ -1,5 +1,6 @@
 '''
 Author:  Peter Chen, Maher Shamaa, Michael Morehead
+Date: 7/22/2015
 Project: Viewer.py
 
 Purpose: Outputs to a folder TestEM the contour of the center of each cell as

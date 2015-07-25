@@ -1,5 +1,6 @@
 '''
 Author:  Peter Chen, Maher Shamaa, Michael Morehead
+Date: 7/22/2015
 Project: Cropper.py
 
 Purpose: Given a folder of list of nucleus centers.
@@ -12,7 +13,9 @@ Known Issues: The program will crop out each cell body, but sometimes ends of
 			Thus the user has the option to view each cell body and decide
 			whether or not to crop it again with larger or smaller values.
 
-Usage: python Cropper.py <num x pixels> <num of y pixels> <num of Z slices in positive direction> <num of Z slices in negative direction> <cell number>
+Usage: python Cropper.py <num x pixels> <num of y pixels> <num of Z slices \
+       in positive direction> <num of Z slices in negative direction> \
+       <cell number>
 		cell number -1 will crop all the cells.
 Default Example: python Cropper.py 200 200 50 50 -1
 '''
